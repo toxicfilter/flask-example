@@ -1,5 +1,3 @@
-<a href="https://toxicfilter.com"><img src="art/logo.png" alt="ToxicFilter" width="96"></a>
-
 # ToxicFilter example: Flask
 
 A comment wall moderated with [ToxicFilter](https://toxicfilter.com), built with Flask and the Python SDK ([toxicfilter/python-sdk](https://github.com/toxicfilter/python-sdk)). Somebody posts a comment and ToxicFilter decides:
