@@ -1,4 +1,4 @@
-<a href="https://toxicfilter.com"><img src="https://toxicfilter.com/img/logo-sm.png" alt="ToxicFilter" width="96"></a>
+<a href="https://toxicfilter.com"><img src="art/logo.png" alt="ToxicFilter" width="96"></a>
 
 # ToxicFilter example: Flask
 
