@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>The wall</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='wall.css') }}">
+</head>
+<body>
+    <h1>The wall</h1>
+
+    {% if held %}<p class="notice">Thanks. Your comment is waiting for a moderator.</p>{% endif %}
+
+    <form method="post" action="/comments">
+        <label>Name <input name="name" value="{{ name }}" required></label>
+        <label>Comment <textarea name="body" rows="3" required>{{ body }}</textarea></label>
+        {% if error %}<p class="error">{{ error }}</p>{% endif %}
+        <button type="submit">Post</button>
+    </form>
+
+    {% for comment in comments %}
+        <article>
+            <strong>{{ comment.name }}</strong>
+            <p>{{ comment.body }}</p>
+        </article>
+    {% endfor %}
+</body>
+</html>

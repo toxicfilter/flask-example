@@ -1,0 +1,9 @@
+body { font: 16px/1.5 system-ui, sans-serif; max-width: 38rem; margin: 3rem auto; padding: 0 1rem; color: #1d2433; }
+form { display: grid; gap: .75rem; margin: 1.5rem 0 2.5rem; }
+label { display: grid; gap: .25rem; font-weight: 600; }
+input, textarea { font: inherit; padding: .5rem .6rem; border: 1px solid #c8cfdb; border-radius: .4rem; }
+button { justify-self: start; font: inherit; font-weight: 600; padding: .5rem 1.1rem; border: 0; border-radius: 99px; background: #1d2433; color: #fff; }
+article { border-top: 1px solid #e3e7ee; padding: .9rem 0; }
+article p { margin: .2rem 0 0; }
+.error { color: #c0392b; margin: 0; }
+.notice { background: #eef4ff; padding: .6rem .8rem; border-radius: .4rem; }

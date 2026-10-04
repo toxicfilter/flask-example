@@ -1,0 +1,2 @@
+flask>=3.0
+toxicfilter-sdk>=1.2
