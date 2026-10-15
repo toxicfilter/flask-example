@@ -1,3 +1,5 @@
+![ToxicFilter Flask example](https://raw.githubusercontent.com/toxicfilter/flask-example/main/art/banner.png)
+
 # ToxicFilter example: Flask
 
 A comment wall moderated with [ToxicFilter](https://toxicfilter.com), built with Flask and the Python SDK ([toxicfilter/python-sdk](https://github.com/toxicfilter/python-sdk)). Somebody posts a comment and ToxicFilter decides:
